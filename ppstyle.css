@@ -1,0 +1,147 @@
+img{
+    size: 20px;
+}
+
+header {
+    font-family: 'Micro-Sans';
+    color: #134A71;
+    text-align: center;
+    font-size:30px;
+    padding-top:10px;
+}
+
+h2 {
+    font-family: 'Micro-sans';
+    color:#CBE6FF;
+    margin-bottom: 4px;
+}
+
+select, input{
+    background-color: #134A71;
+    color: #CBE6FF;
+    border: none;
+
+}
+
+
+
+.profile-container{
+    background-color: #0b2f49;
+    color: #CBE6FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 7px;
+    margin-bottom: 9px;
+    margin-left: 100px;
+    margin-right: 100px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 7px;
+    border-color: #7b8590;
+    border-style: solid;
+}
+#form,#error{
+    background-color: #0b2f49;
+    
+    color: #CBE6FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 7px;
+    margin-bottom: 9px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 7px;
+    border-color: #7b8590;
+    border-style: solid;
+}
+
+.profile-match-name{
+    color: #CBE6FF;
+}
+
+div{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#error{
+    display: none;
+}
+#intro{
+    font-size: medium;
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 10px;
+}
+body{
+    /*Black Application Background*/
+    background-color: #CBE6FF;
+    
+
+    /*Default Text Settings*/
+    font-family: 'Jost', sans-serif;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    
+
+    border: none;
+
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}    
+@keyframes fadeInAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*Option Menu*/
+
+.option-menu{
+    padding: 15px;
+}
+
+label{
+    padding-bottom: 7px;
+}
+
+button{
+
+    size: 100px;
+    width: 100px;
+  height: 50px;
+    border: thin;
+    border-color: thistle;
+    
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background-color: #0b2f49; 
+    color: white;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    font-family: 'Jost', sans-serif;
+}
+/*Adding a double button effect to the options on hover*/
+button:hover{
+    box-shadow: 8px 8px 0px #134A71;
+    top: -6px;
+    left: -6px;
+}
